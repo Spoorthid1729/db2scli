@@ -1,0 +1,15 @@
+{
+  "version": "0.0.0",
+  "description": "CLI for IBM Db2 Serverless REST API",
+  "homepage": "https://github.com/Spoorthid1729/db2scli",
+  "license": "Apache-2.0",
+  "url": "https://github.com/Spoorthid1729/db2scli/releases/download/v$version/db2scli_v$version_windows_amd64.zip",
+  "hash": "sha256:PLACEHOLDER",
+  "bin": "db2scli_windows_amd64.exe",
+  "checkver": {
+    "github": "https://github.com/Spoorthid1729/db2scli"
+  },
+  "autoupdate": {
+    "url": "https://github.com/Spoorthid1729/db2scli/releases/download/v$version/db2scli_v$version_windows_amd64.zip"
+  }
+}
